@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h2>Please input your information</h2> -->
+    <form action="" class="border">
+        <table>
+            <tr>
+                <th colspan="2" class="headline">Please input your information</th>
+            </tr>
+            <tr>
+                <td class="title">
+                    First Name
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    Last Name
+                </td>
+                <td>
+
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    Email
+                </td>
+                <td>
+                    <input type="text">
+                    <input type="button" value="Email confirm">
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    Password
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    Password Confirm
+                </td>
+                <td>
+                    <input type="text">
+            </tr>
+            <tr>
+                <td class="title">
+                    Region
+                </td>
+                <td>
+                    <select name="region" id="region">
+                        Region
+                        <option value="apac">
+                            APAC
+                        </option>
+                        <option value="america">
+                            America
+                        </option>
+                        <option value="emea">
+                            EMEA
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="title">
+                    Membership
+                </td>
+                <td>
+                    <input type="radio" name="free" value="Free" checked>
+                    <label for="free" class="membership-type">Free</label>
+                    <input type="radio" name="basic" value="basic">
+                    <label for="basic" class="membership-type">Basic</label>
+                    <input type="radio" name="premium" value="premium">
+                    <label for="premium" class="membership-type">Premium</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sdate" class="membership-type">Start Date/Time:</label>
+                    <input type="date" name="sdate">
+                    <input type="time" name="stime">
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    Age
+                </td>
+                <td>
+                    <input type="number" name="age" min="0" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    Favorite Color
+                </td>
+                <td>
+                    <input type="color" name="dcolor">
+                </td>
+            </tr>
+            <tr>
+                <td class="title">
+                    Email Newsletter
+                </td>
+                <td>
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <label for="newsletter" class="email-check">Yes I will receive email newsletter</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+        <!-- <label for="name">First Name</label>
+        <input type="text">
+        <p>
+            <label for="name">Last Name</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="text">
+
+        </p>
+        <p>
+            <label for="pwd">Password</label>
+            <input type="text">
+        </p>
+        <label for="pwdConfirm">Password Confirm</label>
+        <input type="text">
+        <p>
+            <input type="submit" value="Submit">
+        </p> -->
+    </form>
+</body>
+
+</html>

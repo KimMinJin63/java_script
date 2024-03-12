@@ -1,0 +1,27 @@
+.headline {
+    color: skyblue;
+    font-size: 1.5rem;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.membership-type {
+    font-weight: bold;
+}
+
+.email-check {
+    font-weight: bold;
+}
+
+.border {
+    border-width: thin;
+    width:fit-content;
+    border-color: black;
+    border-style: solid;
+}
+
+html {
+    font-size: 16px;
+}
